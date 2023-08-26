@@ -51,7 +51,7 @@ def upload_file():
             file_info = {
                 'filename': file.filename,
                 'size': os.path.getsize(filename),
-                'url': f'http://localhost:5000/uploads/{file.filename}'  # Change the URL as needed
+                'url': f'/uploads/{file.filename}'  # Change the URL as needed
             }
             uploaded_files.append(file_info)
 
