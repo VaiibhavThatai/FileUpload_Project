@@ -14,7 +14,7 @@ spec:
     spec:
        containers:
         - name: fileupload-app
-          image: gcr.io/fileuploadproject-v/fileupload:tag
+          image: gcr.io/fileuploadproject-v/fileupload:latest
           ports:
             - containerPort: 5000
           resources:
