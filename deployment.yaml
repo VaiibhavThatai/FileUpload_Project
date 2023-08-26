@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: fileupload-app
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: fileupload-app
+  template:
+    metadata:
+      labels:
+        app: fileupload-app
+    spec:
+       containers:
+        - name: fileupload-app
+          image: gcr.io/fileuploadproject-v/fileupload:tag
+          ports:
+            - containerPort: 5000
+          resources:
+            requests:
+              memory: "64Mi"   
+              cpu: "100m"      
+            limits:
+              memory: "128Mi"  
+              cpu: "200m"      
