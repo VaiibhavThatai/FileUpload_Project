@@ -35,7 +35,9 @@ document.addEventListener("DOMContentLoaded", () => {
                 <p><strong>Filename:</strong> ${file.filename}</p>
                 <p><strong>Size:</strong> ${formatSize(file.size)}</p>
                 <p><strong>URL:</strong> <a href="${file.url}" target="_blank">Open</a></p>
-            `;
+                <p><strong>Description:</strong> ${file.description}</p>
+                <p><strong>Timestamp:</strong> ${file.upload_date}</p>
+                `;
             uploadedFiles.appendChild(fileDiv);
         });
     }
