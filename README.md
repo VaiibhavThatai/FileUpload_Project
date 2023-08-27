@@ -6,7 +6,7 @@ This project aims to provide a user-friendly interface to upload files and retri
 
 ### Installation and Setup
 
-1. Clone the repository `git clone https://github.com/VaiibhavThatai/FileUpload_Project`
+1. Clone the repository `git clone https://github.com/VaiibhavThatai/FileUpload_Project.git`
 2. Download Docker Desktop for your operating system from the official website: [Docker Desktop](https://docs.docker.com/desktop/install/windows-install/)
 
 
