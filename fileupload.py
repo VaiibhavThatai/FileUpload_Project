@@ -1,9 +1,9 @@
 from flask import Flask, json, request, jsonify, send_from_directory, render_template
 import os
 from werkzeug.utils import secure_filename
-import subprocess
+# import subprocess
 import datetime
-from flask_login import current_user
+# from flask_login import current_user
 from PIL import Image
 import nltk
 import magic
